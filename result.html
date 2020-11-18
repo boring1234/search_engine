@@ -1,0 +1,11 @@
+<html>
+   <body>
+      <form method = "post">
+         <p>Search <input type = "text" name = "nm" /><input type = "submit" value = "submit" /></p>
+      </form>
+      <h4>Results</h4>
+      {% for i in output %}
+      <p>{{i}}</p>
+      {% endfor %}
+   </body>
+</html>
